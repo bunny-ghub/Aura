@@ -1,0 +1,23 @@
+{
+  "name": "aura-music-bot",
+  "version": "1.0.0",
+  "description": "A feature-rich Discord music bot with play suggestions and controls.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@discordjs/voice": "^0.17.0",
+    "@discordjs/opus": "^0.9.0",
+    "opusscript": "^0.0.8",
+    "libsodium-wrappers": "^0.7.15",
+    "discord-player": "^6.6.7",
+    "@discord-player/extractor": "^4.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
